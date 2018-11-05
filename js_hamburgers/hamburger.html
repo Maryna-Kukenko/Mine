@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+"use strict";
+var makeError = function (error) {
+  throw new Error(error);
+};
+
+var Hamburger = function(size, type) {
+  this.size = null;
+  this.type = null;
+  this.additionals =[];
+  if (!(size in Hamburger.sizes)) {
+    makeError('Invalid Size');
+  }
+  this.size = size;
+  if (!(type in Hamburger.types)) {
+    makeError('Invalid type');
+  }
+  this.type = type;
+};
+
+Hamburger.sizes ={
+  small:{
+    price: 50,
+    calories: 40
+  },
+
+  big:{
+    price: 100,
+    calories: 60
+  }
+};
+
+Hamburger.types ={
+  cheese:{
+    price: 10,
+    calories: 240
+  },
+  salad:{
+    price: 20,
+    calories: 5
+  },
+  potatoes:{
+    price: 15,
+    calories: 10
+  }
+};
+
+Hamburger.additionals ={
+  spices:{
+    price: 15,
+    calories: 0
+  },
+  souse:{
+    price: 20,
+    calories: 5
+  }
+};
+
+Hamburger.prototype.addAddition = function (kind) {
+  if (!(kind in Hamburger.additionals)) {
+    makeError('Invalid kind');
+  }
+    return this.additionals.push(kind);
+};
+
+Hamburger.prototype.getPrice = function () {
+ var sizePrice = Hamburger.sizes[this.size].price;
+ var typePrice = Hamburger.types[this.type].price;
+ var addPrice = Hamburger.additionals[this.additionals].price;
+  return sizePrice + typePrice + addPrice;
+};
+
+Hamburger.prototype.getCalories = function () {
+  var sizeCalories = Hamburger.sizes[this.size].calories;
+  var typeCalories = Hamburger.types[this.type].calories;
+  var addCalories = Hamburger.additionals[this.additionals].calories;
+  return sizeCalories + typeCalories + addCalories;
+};
+
+var hamb = new Hamburger("big", "salad");
+var cheeseburger = new Hamburger("big", "cheese");
+
+hamb.addAddition('souse');
+cheeseburger.addAddition('spices');
+console.log(hamb);
+console.log(hamb.getPrice());
+console.log(hamb.getCalories());
+console.log(cheeseburger);
+console.log(cheeseburger.getPrice());
+console.log(cheeseburger.getCalories());
+
+</script>
+</body>
+</html>
