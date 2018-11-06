@@ -1,0 +1,1 @@
+Make exchange rate comparatively to EUR for last 2 weeks.
