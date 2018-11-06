@@ -1,0 +1,2 @@
+We have api with articles.
+Task: show 10 first articles, then, when you will scroll to the end of the page, you can see next 10 articles
