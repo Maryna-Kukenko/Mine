@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.experience-title{
+  width: 530px;
+  height: 120px;
+  border-bottom: 3px solid #263363;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  background: linear-gradient(to top, #1b196d 7%, #fdffee 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}

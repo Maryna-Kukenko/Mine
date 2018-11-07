@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+.skills-title{
+   width: 530px;
+   height: 120px;
+   border-bottom: 3px solid #2e2a8b;
+   border-radius: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   font-family: 'Dancing Script', cursive;
+   font-size: 45px;
+  background: linear-gradient(to top, #1b196d 7%, #fdffee 60%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin: 0;
+ }
+
+.skills-table{
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between ;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.skills-stars{
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.skill{
+  width: 135px;
+  height: 30px;
+  font-family: Mali, cursive;
+  font-weight: 400;
+  font-size: 19px;
+  margin: 0;
+}

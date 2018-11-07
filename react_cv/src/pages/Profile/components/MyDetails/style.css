@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.details {
+  width: 280px;
+}
+
+.contact-title, .details-title{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+li:first-child {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.contact-info, .details-info {
+  width: 100%;
+  list-style-type: none;
+  font-family: Mali, cursive;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+
