@@ -1,0 +1,31 @@
+.all {
+   width: 700px;
+   margin: 0 auto;
+ }
+
+.all_articles {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.article_title {
+  font-size: 56px;
+  font-weight: 800;
+  font-family: cursive;
+  margin: 50px;
+}
+
+.each_article {
+  width: 300px;
+  height: 400px;
+  border: 1px solid darkslateblue;
+  margin: 15px;
+}
+
+.article_img {
+  width: 300px;
+  height: 300px;
+}

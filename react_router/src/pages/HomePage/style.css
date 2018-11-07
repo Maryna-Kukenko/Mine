@@ -1,0 +1,10 @@
+.home_page {
+  width: 1200px;
+  height: 800px;
+  font-size: 56px;
+  font-weight: 800;
+  font-family: cursive;
+  background-image: url("http://kvartal.ua/wp-content/uploads/2015/09/zag-dom.jpg");
+  margin: 0 auto;
+  margin-top: 50px;
+}

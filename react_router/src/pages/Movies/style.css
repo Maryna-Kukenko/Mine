@@ -1,0 +1,27 @@
+.all_movies {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.movie_title {
+  font-size: 56px;
+  font-weight: 800;
+  font-family: cursive;
+  margin: 50px;
+}
+
+.each_movie {
+  width: 300px;
+  height: 450px;
+  border: 1px solid darkslateblue;
+  font-weight: bold;
+  font-style: italic;
+  margin: 15px;
+}
+
+.movie_img {
+  width: 300px;
+  height: 400px;
+}
