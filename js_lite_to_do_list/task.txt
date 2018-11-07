@@ -1,0 +1,4 @@
+1.Create ToDoList with 3 column: list of the tasks, in process, done.
+2.Create possibility to add new task and put it to the 1st column.
+3.By click you can move them to the next column(in the last task wil disappeared)
+
