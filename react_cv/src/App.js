@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import Photo from './photo.jpg';
+import Photo from './smallPhoto.JPG';
 import {Switch, Route, Link} from 'react-router-dom';
 
 import Profile from './pages/Profile'

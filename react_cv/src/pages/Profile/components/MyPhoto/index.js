@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 import './style.css'
-import Photo from './myPhoto.jpg'
+import Photo from './myPhoto.JPG'
 
 class MyPhoto extends Component {
   render() {
