@@ -1,16 +1,18 @@
 import React, {Component} from 'react'
+import './style.scss'
 
-class SearchGoods extends Component{
+class SearchFilter extends Component{
   render() {
     return (
       <>
         <input
           type='search'
-          placeholder={}
+          placeholder='Search'
         />
-
       </>
     )
 
   }
 }
+
+export default SearchFilter
