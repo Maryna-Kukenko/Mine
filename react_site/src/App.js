@@ -7,6 +7,7 @@ import Catalog from './containers/Catalog'
 import DeliveryAndPayment from './containers/DeliveryAndPayment'
 import Contacts from './containers/Contacts'
 import Reviews from './containers/Reviews'
+import CatalogItem from './components/CatalogItem'
 
 class App extends Component {
   render() {
@@ -14,10 +15,12 @@ class App extends Component {
       <Layout>
         <Switch>
           <Route exact path='/' component={HomePage}/>
+          <Route path='/catalog/:way' exact component={CatalogItem}/>
           <Route path='/catalog' component={Catalog}/>
           <Route path='/delivery_and_payment' component={DeliveryAndPayment}/>
           <Route path='/contacts' component={Contacts}/>
           <Route path='/reviews' component={Reviews}/>
+          <Route render={() => <h1 style={{color: 'red', textAlign: 'center'}}> 404 not found </h1>}/>
         </Switch>
       </Layout>
     );

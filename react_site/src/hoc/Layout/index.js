@@ -2,6 +2,7 @@ import React, {Component} from  'react'
 import './style.scss'
 
 import Header from '../../containers/Header'
+import Footer from "../../containers/Footer"
 
 class Layout extends Component{
   render() {
@@ -11,6 +12,7 @@ class Layout extends Component{
         <main>
          {this.props.children}
         </main>
+        <Footer />
       </div>
     )
   }
