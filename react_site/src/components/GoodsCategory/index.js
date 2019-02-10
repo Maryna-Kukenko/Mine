@@ -8,9 +8,10 @@ const GoodsCategory = (props) =>{
       className='goods-category'
       onClick={() => props.history.push('/catalog/' + props.way.toLowerCase())}
     >
-      <img src={props.image}
-           style={{width:350, height:300}}
-           alt='category_img'
+      <img
+        src={props.image}
+        style={{width:350, height:300}}
+        alt='category_img'
       />
       <h3>{props.name}</h3>
     </div>
