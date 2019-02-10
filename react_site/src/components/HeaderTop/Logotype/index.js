@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-import logo from './../../../img/logo-design.png'
+import logo from './../../../img/logo-design.jpg'
 
 const Logotype = () => {
   return (
