@@ -8,6 +8,7 @@ import DeliveryAndPayment from './containers/DeliveryAndPayment'
 import Contacts from './containers/Contacts'
 import Reviews from './containers/Reviews'
 import CategoryItemList from './components/CategotyItemList'
+import CatalogItem from './containers/CatalogItem'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
       <Layout>
         <Switch>
           <Route exact path='/' component={HomePage}/>
+          <Route path='/catalog/:way/:name' exact component={CatalogItem}/>
           <Route path='/catalog/:way' exact component={CategoryItemList}/>
           <Route path='/catalog' component={Catalog}/>
           <Route path='/delivery_and_payment' component={DeliveryAndPayment}/>

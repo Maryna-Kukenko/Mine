@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.scss'
+import {withRouter} from "react-router-dom"
 
 const ListComponent = (props) => {
   return (
@@ -10,9 +11,10 @@ const ListComponent = (props) => {
             <div
               className='list-component'
               key={index}
+              onClick={() => props.history.push(`/catalog/${props.match.params.way}/` + item.name.toLowerCase())}
             >
-              <img />
-              <h3>{item}</h3>
+              <img alt='goods_photo'/>
+              <h3>{item.name}</h3>
             </div>
           )
         })
@@ -21,4 +23,4 @@ const ListComponent = (props) => {
   )
 }
 
-export default ListComponent
+export default withRouter(ListComponent)
