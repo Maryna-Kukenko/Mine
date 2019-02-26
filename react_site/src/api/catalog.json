@@ -18,8 +18,25 @@
             "proportions": "40x40",
             "price": "30грн"
           }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": ""
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": ""
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": ""
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": ""
+          }
         ]
-
       },
       {
         "name":"наволочки",
@@ -36,6 +53,24 @@
           {
             "proportions": "0x40",
             "price": "30грн"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "dwhkyky",
+            "price": ""
+          },
+          {
+            "img": "wetsrf",
+            "price": ""
+          },
+          {
+            "img": "ewrt",
+            "price": ""
+          },
+          {
+            "img": "ewrtgh",
+            "price": ""
           }
         ]
       },
@@ -55,6 +90,24 @@
             "proportions": "1x40",
             "price": "30грн"
           }
+        ],
+        "cloth": [
+          {
+            "img": "dwhkyky",
+            "price": ""
+          },
+          {
+            "img": "wetsrf",
+            "price": ""
+          },
+          {
+            "img": "ewrt",
+            "price": ""
+          },
+          {
+            "img": "ewrtgh",
+            "price": ""
+          }
         ]
       },
       {
@@ -73,6 +126,24 @@
             "proportions": "2x40",
             "price": "30грн"
           }
+        ],
+        "cloth": [
+          {
+            "img": "dwhkyky",
+            "price": ""
+          },
+          {
+            "img": "wetsrf",
+            "price": ""
+          },
+          {
+            "img": "ewrt",
+            "price": ""
+          },
+          {
+            "img": "ewrtgh",
+            "price": ""
+          }
         ]
       },
       {
@@ -90,6 +161,24 @@
           {
             "proportions": "40x40",
             "price": "30грн"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "dwhkyky",
+            "price": ""
+          },
+          {
+            "img": "wetsrf",
+            "price": ""
+          },
+          {
+            "img": "ewrt",
+            "price": ""
+          },
+          {
+            "img": "ewrtgh",
+            "price": ""
           }
         ]
       }

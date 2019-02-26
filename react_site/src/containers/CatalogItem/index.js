@@ -3,11 +3,13 @@ import './style.scss'
 import data from './../../api/catalog'
 import ItemTitle from '../../components/CatalogItem/ItemTitle'
 import ItemSize from '../../components/CatalogItem/ItemSize'
+import ItemCloth from '../../components/CatalogItem/ItemCloth'
 
 class CatalogItem extends Component{
 
   state = {
-    size:[]
+    size:[],
+    cloth:[]
   }
 
   componentWillMount() {
@@ -17,7 +19,8 @@ class CatalogItem extends Component{
           this.props.match.params.name === item.list.map((item)=>{
             return (
               item.name === this.props.match.params.name? this.setState({
-                size:item.size
+                size:item.size,
+                cloth:item.cloth
               }):null
             )
           })
@@ -31,6 +34,7 @@ class CatalogItem extends Component{
       <div >
         <ItemTitle title={this.props.match.params.name}/>
         <ItemSize size={this.state.size}/>
+        <ItemCloth cloth={this.state.cloth}/>
       </div>
     )
   }
