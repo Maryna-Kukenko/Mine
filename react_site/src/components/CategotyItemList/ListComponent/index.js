@@ -13,7 +13,12 @@ const ListComponent = (props) => {
               key={index}
               onClick={() => props.history.push(`/catalog/${props.match.params.way}/` + item.name.toLowerCase())}
             >
-              <img alt='goods_photo'/>
+              <img
+                src={item.photo}
+                style={{width:350, height:250}}
+                alt='goods_photo'
+              />
+              {console.log()}
               <h3>{item.name}</h3>
             </div>
           )

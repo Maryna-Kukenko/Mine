@@ -4,6 +4,7 @@
     "list": [
       {
         "name":"пледы",
+        "photo": "/images/blanket.jpg",
         "size": [
           {
             "proportions": "15x15",
@@ -22,6 +23,7 @@
       },
       {
         "name":"наволочки",
+        "photo": "/images/navolochki.jpg",
         "size": [
           {
             "proportions": "0x15",
@@ -39,6 +41,7 @@
       },
       {
         "name":"простыни",
+        "photo": "/images/prostini.jpg",
         "size": [
           {
             "proportions": "1x15",
@@ -56,6 +59,7 @@
       },
       {
         "name":"пододеяльники",
+        "photo": "/images/podod.jpg",
         "size": [
           {
             "proportions": "2x15",
@@ -73,6 +77,7 @@
       },
       {
         "name":"комплекты постельного белья",
+        "photo": "/images/complect.jpg",
         "size": [
           {
             "proportions": "15x15",
