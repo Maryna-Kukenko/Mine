@@ -31,7 +31,7 @@ class CatalogItem extends Component{
 
   render() {
     return (
-      <div >
+      <div className='item-details'>
         <ItemTitle title={this.props.match.params.name}/>
         <ItemSize size={this.state.size}/>
         <ItemCloth cloth={this.state.cloth}/>

@@ -9,7 +9,7 @@ class Layout extends Component{
     return (
       <div className='layout'>
         <Header />
-        <main>
+        <main className='main'>
          {this.props.children}
         </main>
         <Footer />

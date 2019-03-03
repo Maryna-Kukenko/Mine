@@ -1,16 +1,23 @@
 .layout{
   display: flex;
   flex-direction: column;
-}
+  .main{
+    display: flex;
+    flex-direction: column;
+    width: 1172px;
+    min-height: 800px;
+    margin: 0 auto;
+    padding:{
+      top: 50px;
+      bottom: 50px;
+    }
+    border:{
+      right: 4px solid purple;
+      left: 4px solid purple;
+    }
 
-.layout main{
-  display: flex;
-  flex-direction: column;
-  width: 1172px;
-  margin: 0 auto;
-  border:{
-    right: 4px solid purple;
-    left: 4px solid purple;
   }
 }
+
+
 

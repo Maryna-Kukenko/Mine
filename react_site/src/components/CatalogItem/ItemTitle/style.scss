@@ -1,15 +1,18 @@
 .item-title{
-  width: 800px;
-  margin: 0 auto;
   text-align: center;
+  .title, .text{
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    &:first-letter{
+      text-transform: uppercase;
+    }
+  }
   .title{
-    font:{
-      size: 24px;
-    };
-    margin: 15px;
+    font-size: 24px;
   }
   .text{
     width: 500px;
-    margin: 10px auto;
+    font-size: 16px;
   }
 }

@@ -1,3 +1,16 @@
 .item-cloth{
   display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 400px;
+  width: 400px;
+  font: {
+    family: 'PlayFair Display', sant-serif;
+    size: 18px;
+  }
+  .select-cloth{
+    width: 400px;
+    margin-bottom: 10px;
+  }
 }
+

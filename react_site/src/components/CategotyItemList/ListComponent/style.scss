@@ -1,11 +1,11 @@
 .list-component{
   width: 350px;
   height: 300px;
-  border: 1px solid purple;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
   margin-bottom: 20px;
+  box-shadow: 0 4px 15px 0 mediumpurple;
   h3{
     margin: 0;
     height: 50px;

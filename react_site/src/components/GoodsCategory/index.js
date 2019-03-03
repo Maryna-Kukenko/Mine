@@ -10,7 +10,10 @@ const GoodsCategory = (props) =>{
     >
       <img
         src={props.image}
-        style={{width:350, height:250}}
+        style={{
+          width:350,
+          height:250
+        }}
         alt='category_img'
       />
       <h3>{props.name}</h3>

@@ -5,7 +5,7 @@ import ItemClothVariations from './ItemClothVatiations'
 const ItemCloth = (props) => {
   return (
     <form className='item-cloth'>
-      Выберите ткань:
+      <span className='select-cloth'>Выберите ткань:</span>
       {
         props.cloth.map((item, index) => {
           return (
