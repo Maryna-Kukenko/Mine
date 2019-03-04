@@ -6,6 +6,7 @@ class SearchFilter extends Component{
     return (
       <>
         <input
+          className='search-logo'
           type='search'
           placeholder='Search'
         />

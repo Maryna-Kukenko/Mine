@@ -1,24 +1,25 @@
 import React, {Component} from 'react'
+import './style.scss'
 
 class ItemClothVariations extends Component {
-
   state = {
-    input: {
+    bigPhoto: {
       opacity: 0,
       position: 'absolute',
-      top: '-170px',
-      width: '150px',
-      height: '150px',
+      top: '-300px',
+      width: '300px',
+      height: '300px',
       background: `url(${this.props.img}) no-repeat`,
-      backgroundSize: 'cover'
+      backgroundSize: 'cover',
+      boxShadow: '1px 1px 7px 1px grey'
     }
   }
 
   showBigPhoto = ()=> {
     this.setState(prevState=>{
       return{
-        input:{
-        ...prevState.input,
+        bigPhoto:{
+        ...prevState.bigPhoto,
         opacity: '1'
         }
       }
@@ -28,8 +29,8 @@ class ItemClothVariations extends Component {
   hiddenBigPhoto = ()=>{
     this.setState(prevState=>{
       return{
-        input:{
-          ...prevState.input,
+        bigPhoto:{
+          ...prevState.bigPhoto,
           opacity: 0
         }
       }
@@ -37,18 +38,21 @@ class ItemClothVariations extends Component {
   }
 
   render(){
-    const classes = {
+    const labelStyle = {
       position: 'relative',
       background: `url(${this.props.img}) no-repeat`,
-      width: '50px',
-      height: '50px',
+      width: '75px',
+      height: '75px',
       backgroundSize: 'cover',
-      marginRight: '10px'
+      marginRight: '10px',
+      boxShadow: '1px 1px 7px 1px grey'
     }
 
     return (
+      <>
+        <span style={this.state.bigPhoto}> </span>
       <label
-        style={classes}
+        style={labelStyle}
         onMouseOver={this.showBigPhoto}
         onMouseOut={this.hiddenBigPhoto}
       >
@@ -56,8 +60,11 @@ class ItemClothVariations extends Component {
           type='radio'
           name='kindOfCloth'
           value={this.props.img}
-        /><span style={this.state.input}> </span>
+          className='checkedCloth'
+        />
+
       </label>
+      </>
     )
   }
 }

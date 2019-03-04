@@ -1,0 +1,16 @@
+.checkedCloth{
+  position: absolute;
+  right: 0;
+  -webkit-appearance: none;
+  width: 10px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.checkedCloth:checked{
+  background: url("./../../../../img/sign.png") no-repeat;
+  background-size: contain;
+  background-color: antiquewhite;
+  border: 0.5px solid darkgrey;
+  outline-color: transparent;
+}

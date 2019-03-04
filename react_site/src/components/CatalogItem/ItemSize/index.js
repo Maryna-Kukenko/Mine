@@ -5,7 +5,7 @@ import ItemSizeVariations from './ItemSizeVariations'
 const ItemSize = (props) => {
   return (
     <div className='item-size'>
-      Paзмер изделия:
+      Выберите рaзмер изделия:
       <select >
         {
           props.size.map((item, index) => {
