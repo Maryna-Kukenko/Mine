@@ -59,10 +59,11 @@ class ItemClothVariations extends Component {
         <input
           type='radio'
           name='kindOfCloth'
-          value={this.props.img}
+          value={this.props.price}
+          price={this.props.img}
           className='checkedCloth'
+          onClick={this.props.showPrice}
         />
-
       </label>
       </>
     )
