@@ -3,17 +3,14 @@ import './style.scss'
 
 const AddToWishListButton = (props) => {
 const style = {
-  background: `url(${props.bgPath})`
+  background: `url(${props.bgPath}) 0% 0% / cover no-repeat`
 }
   return (
     <button
-      className='add-to-wishList'
       onClick={props.addToWishList}
       style={style}
-      toggle={props.toggle}
+      className='add-to-wishList'
     >
-      {console.log(props.bgPath)}
-      {console.log(props.toggle)}
     </button>
   )
 }

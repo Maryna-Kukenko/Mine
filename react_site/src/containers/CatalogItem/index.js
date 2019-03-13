@@ -7,8 +7,6 @@ import ItemCloth from '../../components/CatalogItem/ItemCloth'
 import ItemTotalPrice from '../../components/CatalogItem/ItemTotalPrice'
 import AddToWishListButton from '../../components/CatalogItem/AddToWishListButton'
 import AddToBasketButton from '../../components/CatalogItem/AddToBasketButton'
-// import fullHeard from './../../img/full_heart.jpg'
-// import emptyHeard from './../../img/full_heart.jpg'
 
 class CatalogItem extends Component {
 
@@ -19,7 +17,8 @@ class CatalogItem extends Component {
     clothPrice: 0,
     totalPrice: 0,
     basket:{
-      basketBackground: './../../img/full_heart.jpg',
+      basketBackground: '/images/wish-list.jpg',
+      backgroundSize: 'cover',
       toggle: false
     }
   }
@@ -54,29 +53,26 @@ class CatalogItem extends Component {
   }
 
   addToWishList = () =>{
-    if (this.state.basket.toggle === false){
-      this.setState({
+   this.state.basket.toggle === false?
+      this.setState( {
         basket:{
-          basketBackground: './../../img/full_heart.jpg',
+          basketBackground: '/images/full_heart.jpg',
           toggle: true
         }
-      })
-    }else{
+      }):
       this.setState({
         basket:{
-          basketBackground: './../../img/full_heart.jpg',
+          basketBackground: '/images/wish-list.jpg',
           toggle: false
         }
       })
     }
 
-  }
-
   render(){
-    console.log('render size price ' + this.state.sizePrice)
-    console.log('render cloth price: ' + this.state.clothPrice)
-    console.log('render total price: ' + this.state.totalPrice)
-    console.log(this.state.basket.toggle)
+    // console.log('render size price ' + this.state.sizePrice)
+    // console.log('render cloth price: ' + this.state.clothPrice)
+    // console.log('render total price: ' + this.state.totalPrice)
+    // console.log(this.state.basket.toggle)
     return (
       <div className='item-details'>
         <ItemTitle title={this.props.match.params.name}/>
