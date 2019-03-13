@@ -1,12 +1,23 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  font-weight: 400;
+  src: url('./../../../fonts/PlayfairDisplay-Regular.ttf');
+}
+
 .list-component{
   width: 350px;
   height: 300px;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin: 20px;
   box-shadow: 0 4px 15px 0 mediumpurple;
+  overflow: hidden;
   h3{
+    font: {
+      family:'PlayfairDisplay-Regular', sant-serif;
+      size: 22px;
+    }
     margin: 0;
     height: 50px;
     line-height: 50px;

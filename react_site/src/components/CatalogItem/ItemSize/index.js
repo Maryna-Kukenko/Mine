@@ -18,6 +18,7 @@ class ItemSize extends Component{
       <div className='item-size'>
         Выберите рaзмер изделия:
         <select onChange ={this.showSizePrice}>
+          <option></option>
           {
             this.props.size.map((item, index) => {
               return (

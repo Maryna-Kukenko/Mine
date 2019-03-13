@@ -1,15 +1,26 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  font-weight: 400;
+  src: url('./../../../fonts/PlayfairDisplay-Italic.ttf');
+}
+
 .item-size{
+  width: 400px;
   position: relative;
-  left: 400px;
+  left: 500px;
   font: {
-    family: 'PlayFair Display', sant-serif;
-    size: 18px;
+    family: 'PlayfairDisplay-Italic', cursive;
+    size: 20px;
   }
-  margin-bottom: 310px;
+  margin:{
+    top: 20px;
+    bottom: 340px;
+  }
   select{
     width: 80px;
     height: 20px;
     font-size: 15px;
     margin-left: 10px;
+    font-family: 'OpenSans-Regular', sans-serif;
   }
 }

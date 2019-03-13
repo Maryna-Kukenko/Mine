@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  font-weight: 400;
+  src: url('./../../../fonts/PlayfairDisplay-Italic.ttf');
+}
+
+.item-total-price{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  &>span{
+    margin: 0 auto;
+    font-family: 'PlayfairDisplay-Italic', cursive;
+    &:first-child{
+      font-size: 20px;
+    }
+    &:last-child{
+      font-size: 40px;
+    }
+  }
+}

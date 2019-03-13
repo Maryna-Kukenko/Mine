@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  font-weight: 400;
+  src: url('./../../../fonts/PlayfairDisplay-Italic.ttf');
+}
+
 .slogan{
   width: 600px;
-  font-size: 50px;
+  font: {
+    family: PlayfairDisplay-Italic, cursive;
+    size: 30px;
+  }
   text-align: center;
 }

@@ -6,9 +6,9 @@ class ItemClothVariations extends Component {
     bigPhoto: {
       opacity: 0,
       position: 'absolute',
-      top: '-300px',
-      width: '300px',
-      height: '300px',
+      top: '-330px',
+      width: '330px',
+      height: '330px',
       background: `url(${this.props.img}) no-repeat`,
       backgroundSize: 'cover',
       boxShadow: '1px 1px 7px 1px grey'
@@ -41,8 +41,8 @@ class ItemClothVariations extends Component {
     const labelStyle = {
       position: 'relative',
       background: `url(${this.props.img}) no-repeat`,
-      width: '75px',
-      height: '75px',
+      width: '100px',
+      height: '100px',
       backgroundSize: 'cover',
       marginRight: '10px',
       boxShadow: '1px 1px 7px 1px grey'

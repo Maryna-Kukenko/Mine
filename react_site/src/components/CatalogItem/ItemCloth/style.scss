@@ -1,15 +1,21 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  font-weight: 400;
+  src: url('./../../../fonts/PlayfairDisplay-Italic.ttf');
+}
+
 .item-cloth{
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  left: 400px;
-  width: 400px;
+  left: 500px;
+  width: 600px;
   font: {
-    family: 'PlayFair Display', sant-serif;
-    size: 18px;
+    family: 'PlayfairDisplay-Italic', cursive;
+    size: 20px;
   }
   .select-cloth{
-    width: 400px;
+    width: 600px;
     margin-bottom: 10px;
   }
 }

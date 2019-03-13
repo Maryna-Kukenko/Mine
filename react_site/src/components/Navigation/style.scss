@@ -1,19 +1,32 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  font-weight: 400;
+  src: url('./../../fonts/PlayfairDisplay-Regular.ttf');
+}
+
 .navigation ul{
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+
   li{
-    border-top: 4px solid purple;
+    height: 32px;
     flex-grow: 1;
     text-align: center;
     margin: 0 auto;
-    a{
-      color: #363d54;
-      font-size: 24px;
+    border: 2px solid purple;
+    border-top: 1px solid rebeccapurple;
+    border-radius: 36px;
+  a{
+      color: black;
+      font: {
+        family: PlayfairDisplay-Regular, sans-serif;
+        weight: 600;
+        size:24px;
+      }
       text-decoration: none;
       text-transform: uppercase;
     }
   }
 }
-

@@ -33,10 +33,7 @@ class Navigation extends Component{
       <nav className='navigation'>
         <ul>
           {this.renderLinks()}
-          <li>
             <SearchFilter />
-          </li>
-
         </ul>
       </nav>
     )
