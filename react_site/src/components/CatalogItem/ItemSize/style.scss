@@ -6,16 +6,13 @@
 
 .item-size{
   width: 400px;
-  position: relative;
+  float: right;
   left: 500px;
   font: {
     family: 'PlayfairDisplay-Italic', cursive;
     size: 20px;
   }
-  margin:{
-    top: 20px;
-    bottom: 340px;
-  }
+  margin-bottom: 340px;
   select{
     width: 80px;
     height: 20px;

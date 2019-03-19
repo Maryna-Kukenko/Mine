@@ -3,7 +3,8 @@ import './style.scss'
 
 const AddToWishListButton = (props) => {
 const style = {
-  background: `url(${props.bgPath}) 0% 0% / cover no-repeat`
+  background: `url(${props.bgPath}) 0% 0% / contain no-repeat`,
+  transition:'background 0.3s'
 }
   return (
     <button

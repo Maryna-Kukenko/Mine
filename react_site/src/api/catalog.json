@@ -36,6 +36,11 @@
             "img": "/images/atlas4.jpg",
             "price": "40"
           }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
         ]
       },
       {
@@ -44,34 +49,39 @@
         "size": [
           {
             "proportions": "0x15",
-            "price": "10грн"
+            "price": "10"
           },
           {
             "proportions": "0x25",
-            "price": "15грн"
+            "price": "15"
           },
           {
             "proportions": "0x40",
-            "price": "30грн"
+            "price": "30"
           }
         ],
         "cloth": [
           {
-            "img": "dwhkyky",
-            "price": ""
+            "img": "/images/atlas1.jpg",
+            "price": "10"
           },
           {
-            "img": "wetsrf",
-            "price": ""
+            "img": "/images/atlas2.jpg",
+            "price": "20"
           },
           {
-            "img": "ewrt",
-            "price": ""
+            "img": "/images/atlas3.jpg",
+            "price": "30"
           },
           {
-            "img": "ewrtgh",
-            "price": ""
+            "img": "/images/atlas4.jpg",
+            "price": "40"
           }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
         ]
       },
       {
@@ -80,34 +90,39 @@
         "size": [
           {
             "proportions": "1x15",
-            "price": "10грн"
+            "price": "10"
           },
           {
             "proportions": "1x25",
-            "price": "15грн"
+            "price": "15"
           },
           {
             "proportions": "1x40",
-            "price": "30грн"
+            "price": "30"
           }
         ],
         "cloth": [
           {
-            "img": "dwhkyky",
-            "price": ""
+            "img": "/images/atlas1.jpg",
+            "price": "10"
           },
           {
-            "img": "wetsrf",
-            "price": ""
+            "img": "/images/atlas2.jpg",
+            "price": "20"
           },
           {
-            "img": "ewrt",
-            "price": ""
+            "img": "/images/atlas3.jpg",
+            "price": "30"
           },
           {
-            "img": "ewrtgh",
-            "price": ""
+            "img": "/images/atlas4.jpg",
+            "price": "40"
           }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
         ]
       },
       {
@@ -116,34 +131,39 @@
         "size": [
           {
             "proportions": "2x15",
-            "price": "10грн"
+            "price": "10"
           },
           {
             "proportions": "2x25",
-            "price": "15грн"
+            "price": "15"
           },
           {
             "proportions": "2x40",
-            "price": "30грн"
+            "price": "30"
           }
         ],
         "cloth": [
           {
-            "img": "dwhkyky",
-            "price": ""
+            "img": "/images/atlas1.jpg",
+            "price": "10"
           },
           {
-            "img": "wetsrf",
-            "price": ""
+            "img": "/images/atlas2.jpg",
+            "price": "20"
           },
           {
-            "img": "ewrt",
-            "price": ""
+            "img": "/images/atlas3.jpg",
+            "price": "30"
           },
           {
-            "img": "ewrtgh",
-            "price": ""
+            "img": "/images/atlas4.jpg",
+            "price": "40"
           }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
         ]
       },
       {
@@ -152,34 +172,39 @@
         "size": [
           {
             "proportions": "15x15",
-            "price": "10грн"
+            "price": "10"
           },
           {
             "proportions": "25x25",
-            "price": "15грн"
+            "price": "15"
           },
           {
             "proportions": "40x40",
-            "price": "30грн"
+            "price": "30"
           }
         ],
         "cloth": [
           {
-            "img": "dwhkyky",
-            "price": ""
+            "img": "/images/atlas1.jpg",
+            "price": "10"
           },
           {
-            "img": "wetsrf",
-            "price": ""
+            "img": "/images/atlas2.jpg",
+            "price": "20"
           },
           {
-            "img": "ewrt",
-            "price": ""
+            "img": "/images/atlas3.jpg",
+            "price": "30"
           },
           {
-            "img": "ewrtgh",
-            "price": ""
+            "img": "/images/atlas4.jpg",
+            "price": "40"
           }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
         ]
       }
     ]
@@ -187,30 +212,590 @@
   {
     "name": "for_kitchen",
     "list": [
-      {"name":"рушнички"},
-      {"name":"салфетки"},
-      {"name":"полотенца"},
-      {"name":"скатерти"},
-      {"name":"фартуки"},
-      {"name":"подушечки на стулья"},
-      {"name":"прихватки"}
+      {
+        "name":"рушнички",
+        "photo": "/images/kitchen-towel.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"салфетки",
+        "photo": "/images/kitchen-napk.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"полотенца",
+        "photo": "/images/kitchen-towel2.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"скатерти",
+        "photo": "/images/kitchen-tablecloth.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"фартуки",
+        "photo": "/images/apron.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"подушечки на стулья",
+        "photo": "/images/podushki-na-stul.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"прихватки",
+        "photo": "/images/98.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      }
     ]
   },
   {
     "name": "for_children",
     "list": [
-      {"name":"пеленки"},
-      {"name":"полотенца с капюшоном"},
-      {"name":"одеяльца"},
-      {"name":"детское постельное"}
+      {
+        "name":"пеленки",
+        "photo": "/images/baby-diaper.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"полотенца с капюшоном",
+        "photo": "/images/children-towel.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"одеяльца",
+        "photo": "/images/children-blancket.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"детское постельное",
+        "photo": "/images/baby-bed-sets.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      }
     ]
   },
   {
     "name": "seasonal",
     "list": [
-      {"name":"пасхальный рушник"},
-      {"name":"свадебный рушник"},
-      {"name":"мантилья в церковь на крещение"}
+      {
+        "name":"пасхальный рушник",
+        "photo": "/images/ester.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"свадебный рушник",
+        "photo": "/images/wedding.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      },
+      {
+        "name":"мантилья в церковь на крещение",
+        "photo": "/images/complect.jpg",
+        "size": [
+          {
+            "proportions": "15x15",
+            "price": "10"
+          },
+          {
+            "proportions": "25x25",
+            "price": "15"
+          },
+          {
+            "proportions": "40x40",
+            "price": "30"
+          }
+        ],
+        "cloth": [
+          {
+            "img": "/images/atlas1.jpg",
+            "price": "10"
+          },
+          {
+            "img": "/images/atlas2.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/atlas3.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/atlas4.jpg",
+            "price": "40"
+          }
+        ],
+        "photos": [
+          "/images/atlas1.jpg",
+          "/images/atlas2.jpg",
+          "/images/atlas3.jpg"
+        ]
+      }
     ]
   }
 ]

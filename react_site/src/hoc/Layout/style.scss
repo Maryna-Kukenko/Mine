@@ -1,6 +1,7 @@
 .layout{
   display: flex;
   flex-direction: column;
+  outline-color: transparent;
   .main{
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
       right: 4px solid purple;
       left: 4px solid purple;
     }
-
+    box-sizing: unset;
   }
 }
 

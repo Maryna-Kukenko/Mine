@@ -7,19 +7,25 @@ import ItemCloth from '../../components/CatalogItem/ItemCloth'
 import ItemTotalPrice from '../../components/CatalogItem/ItemTotalPrice'
 import AddToWishListButton from '../../components/CatalogItem/AddToWishListButton'
 import AddToBasketButton from '../../components/CatalogItem/AddToBasketButton'
+import ItemPhotos from '../../components/CatalogItem/ItemPhotos'
 
 class CatalogItem extends Component {
 
   state = {
     size: [],
     cloth: [],
+    photos:[],
     sizePrice: 0,
     clothPrice: 0,
     totalPrice: 0,
-    basket:{
-      basketBackground: '/images/wish-list.jpg',
-      backgroundSize: 'cover',
+    wishList:{
+      wishListBackground: '/images/wish-list.jpg',
       toggle: false
+    },
+    basket: {
+      basketBackground: '/images/add-to-basket.png',
+      basketColor: 'lightgray',
+      // toggle: false
     }
   }
 
@@ -31,7 +37,8 @@ class CatalogItem extends Component {
             return (
               item.name === this.props.match.params.name ? this.setState({
                 size: item.size,
-                cloth: item.cloth
+                cloth: item.cloth,
+                photos: item.photos
               }) : null
             )
           })
@@ -53,26 +60,47 @@ class CatalogItem extends Component {
   }
 
   addToWishList = () =>{
-   this.state.basket.toggle === false?
+   this.state.wishList.toggle === false?
       this.setState( {
-        basket:{
-          basketBackground: '/images/full_heart.jpg',
+        wishList:{
+          wishListBackground: '/images/full_heart.jpg',
           toggle: true
         }
       }):
       this.setState({
-        basket:{
-          basketBackground: '/images/wish-list.jpg',
+        wishList:{
+          wishListBackground: '/images/wish-list.jpg',
           toggle: false
         }
       })
     }
 
+  changeBgColorToDark = () => {
+    this.setState(prevState => {
+      return {
+        basket: {
+          ...prevState.basket,
+          basketColor: 'gray'
+        }
+      }
+    })
+  }
+
+  changeBgColorToLight = () => {
+    this.setState(prevState => {
+      return {
+        basket: {
+          ...prevState.basket,
+          basketColor: 'lightgray'
+        }
+      }
+    })
+  }
   render(){
-    // console.log('render size price ' + this.state.sizePrice)
-    // console.log('render cloth price: ' + this.state.clothPrice)
-    // console.log('render total price: ' + this.state.totalPrice)
-    // console.log(this.state.basket.toggle)
+    const style = {
+      background: `url(${this.state.basket.basketBackground}) 0% 0% / contain no-repeat ${this.state.basket.basketColor}`,
+      transition:'backgroundColor 0.2s'
+    }
     return (
       <div className='item-details'>
         <ItemTitle title={this.props.match.params.name}/>
@@ -80,22 +108,32 @@ class CatalogItem extends Component {
           sizePrice={this.state.sizePrice}
           clothPrice={this.state.clothPrice}
         />
-        <AddToWishListButton
-          addToWishList={this.addToWishList}
-          bgPath={this.state.basket.basketBackground}
-          toggle = {this.state.basket.toggle}
-        />
-        <AddToBasketButton />
         <ItemSize
           size={this.state.size}
           price={this.state.sizePrice}
           updateSizePrice={this.updateSizePrice}
+        />
+        <ItemPhotos
+          photos={this.state.photos}
+        />
+        <AddToWishListButton
+          addToWishList={this.addToWishList}
+          bgPath={this.state.wishList.wishListBackground}
+          toggle = {this.state.wishList.toggle}
+        />
+        <AddToBasketButton
+          // addToBasket={this.addToBasket}
+          // bgPath={this.state.basket.basketBackground}
+          darkColor={this.changeBgColorToDark}
+          lightColor={this.changeBgColorToLight}
+          style={style}
         />
         <ItemCloth
           cloth={this.state.cloth}
           price={this.state.clothPrice}
           updateClothPrice={this.updateClothPrice}
         />
+
       </div>
     )
   }
