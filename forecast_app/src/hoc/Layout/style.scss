@@ -1,0 +1,17 @@
+*{
+  font-family: 'Book Antiqua', sans-serif;
+}
+
+.layout{
+  width: 500px;
+  height: 800px;
+  border-radius: 50px;
+  margin: 50px auto;
+  background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa21);
+  box-shadow: 5px 10px 20px #aaaaaa, -5px -10px 20px #aaaaaa;
+}
+
+.main{
+  display: block;
+  margin: 30px;
+}

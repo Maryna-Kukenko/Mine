@@ -1,0 +1,11 @@
+.header{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid gainsboro;
+  span{
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+}
