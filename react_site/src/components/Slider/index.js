@@ -20,7 +20,6 @@ class Slider extends Component{
   }
 
   render() {
-    console.log(this.state.images)
     return (
       <div className='slider'>
         <Carousel>

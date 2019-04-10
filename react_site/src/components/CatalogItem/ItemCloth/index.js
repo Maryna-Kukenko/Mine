@@ -5,7 +5,6 @@ import ItemClothVariations from './ItemClothVatiations'
 class ItemCloth extends Component {
   showClothPrice = (e) => {
     this.props.updateClothPrice(e.target.value)
-    console.log('show cloth price: ' + e.target.value)
   }
     render() {
       return (

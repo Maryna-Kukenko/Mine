@@ -1,7 +1,6 @@
 .layout{
   display: flex;
   flex-direction: column;
-  outline-color: transparent;
   .main{
     display: flex;
     flex-direction: column;
@@ -12,10 +11,10 @@
       top: 50px;
       bottom: 50px;
     }
-    border:{
-      right: 4px solid purple;
-      left: 4px solid purple;
-    }
+    //border:{
+    //  right: 4px solid purple;
+    //  left: 4px solid purple;
+    //}
     box-sizing: unset;
   }
 }

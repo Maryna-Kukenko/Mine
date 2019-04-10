@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  font-weight: 400;
+  src: url('./../../fonts/PlayfairDisplay-Regular.ttf');
+}
+
 .delivery-payment{
+  display: inline-block;
   width: 800px;
+  font-family: 'PlayfairDisplay-Regular', sans-serif;
   margin: 0 auto;
 }

@@ -48,26 +48,26 @@
         "photo": "/images/navolochki.jpg",
         "size": [
           {
-            "proportions": "0x15",
-            "price": "10"
+            "proportions": "50x50",
+            "price": "20"
           },
           {
-            "proportions": "0x25",
-            "price": "15"
-          },
-          {
-            "proportions": "0x40",
+            "proportions": "50x70",
             "price": "30"
+          },
+          {
+            "proportions": "70x70",
+            "price": "50"
           }
         ],
         "cloth": [
           {
             "img": "/images/atlas1.jpg",
-            "price": "10"
+            "price": "30"
           },
           {
             "img": "/images/atlas2.jpg",
-            "price": "20"
+            "price": "40"
           },
           {
             "img": "/images/atlas3.jpg",
@@ -75,7 +75,7 @@
           },
           {
             "img": "/images/atlas4.jpg",
-            "price": "40"
+            "price": "50"
           }
         ],
         "photos": [
@@ -89,15 +89,15 @@
         "photo": "/images/prostini.jpg",
         "size": [
           {
-            "proportions": "1x15",
+            "proportions": "160x220",
             "price": "10"
           },
           {
-            "proportions": "1x25",
+            "proportions": "190x220",
             "price": "15"
           },
           {
-            "proportions": "1x40",
+            "proportions": "220x220",
             "price": "30"
           }
         ],

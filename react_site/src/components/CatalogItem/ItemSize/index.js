@@ -5,13 +5,7 @@ import ItemSizeVariations from './ItemSizeVariations'
 class ItemSize extends Component{
   showSizePrice = (e) => {
     this.props.updateSizePrice(e.target.value)
-    console.log('size price: ' + e.target.value)
-
  }
-
-  //  this.props.updateTotalPrice()
-   // console.log('did mount total price')
-
 
   render() {
     return (
