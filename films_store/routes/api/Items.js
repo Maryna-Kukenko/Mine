@@ -13,6 +13,13 @@ router.get('/', (req, res) => {
     .then(items => res.json(items))
 });
 
+router.get('/search/:key', (req, res) => {
+  console.log(req.params.key);
+  Item.find({$or:[{'title':{$in:req.params.key}},{'stars':{$in:`${req.params.key}`}}]})
+    .then(items => res.json(items))
+    .catch(err => res.status(404).json({success: false}))
+});
+
 //@rout POST api/items
 //@desc Create An Item
 //@access Public

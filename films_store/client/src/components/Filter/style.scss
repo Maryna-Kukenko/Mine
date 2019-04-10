@@ -1,0 +1,25 @@
+.filter{
+  text-align: center;
+}
+
+.filter-info{
+  height: 35px;
+  width: 250px;
+  border: 2px solid grey;
+  border-top: 1px solid grey;
+  border-radius: 36px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.filter-send{
+  position: relative;
+  right: 40px;
+  height: 30px;
+  width: 35px;
+  background: url('../../img/find.png') white 2px no-repeat;
+  background-size: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}

@@ -6,7 +6,8 @@ import Content from '../containers/Content'
 
 class MainPage extends Component {
   state = {
-    filmsList: []
+    filmsList: [],
+    filterValue:''
   };
 
   showFilms = () => {
@@ -18,6 +19,28 @@ class MainPage extends Component {
         })
       )
       .catch(err => err)
+  };
+
+  changeFilterValue = (e) => {
+    console.log(e.target.value);
+    this.setState({
+      filterValue: e.target.value
+    })
+
+  };
+
+  showFilteredFilms = (e) => {
+    e.preventDefault();
+    const url = `/api/items/search/` + this.state.filterValue;
+    console.log('show filtered films');
+    fetch(url)
+      .then(res => res.json())
+      .then(
+        res => this.setState({
+          filmsList: res
+        })
+      )
+      .catch(err => console.log('not found film ' + err))
   };
 
   componentWillMount() {
@@ -102,11 +125,14 @@ class MainPage extends Component {
     return (
       <div className='main-page'>
         <SideBar
-        addFile = {this.addFilmToStore}
+          value = {this.state.filterValue}
+          changeFilterValue ={this.changeFilterValue}
+          addFile = {this.addFilmToStore}
+          showFilms = {this.showFilteredFilms}
         />
         <Content
-        value = {this.state.filmsList}
-        deleteFilm = {this.deleteFilmFromStore}
+          value = {this.state.filmsList}
+          deleteFilm = {this.deleteFilmFromStore}
         />
       </div>
     )
