@@ -1,8 +1,8 @@
-**React_Express_MongoDB films_store**
+# React_Express_MongoDB films_store 
 > Create app with React, Express and using MongoDB for saving data. Run your client and server with a single command
 
 
-**How to run the App**
+### How to run the App
 
 ```
 # Install dependencies for server
@@ -24,7 +24,7 @@ npm run client
 # Server runs on http://localhost:5000/api/items and client on http://localhost:3000
 ```
 
-**Task**
+### Task
 
 Необходимо реализовать веб-приложение для хранения информации о фильмах. Вместе с реализацией требуется предоставить документ объясняющий архитектуру приложения и содержащий инструкцию по запуску приложения. 
 
