@@ -47,6 +47,36 @@ class MainPage extends Component {
     this.showFilms()
   }
 
+  createStoreItem = (data) => {
+    const title = data.title;
+    const release_year = data.release_year;
+    const stars = data.stars;
+    const format = data.format;
+
+    const formData = {
+      title: title,
+      release_year: release_year,
+      stars: stars,
+      format: format
+    };
+
+    if(!this.state.filmsList.some(item => {
+      return item.title === formData.title
+    })){
+       return fetch('/api/items', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+        .then(res => console.log(res.json()))
+        .catch(err => console.log(err));
+    } else {
+      return alert('Film ' + formData.title + ' already here')
+    }
+  };
+
   addFilmToStore = (e) => {
     let files = e.target.files;
 
@@ -55,58 +85,16 @@ class MainPage extends Component {
 
     reader.onload = (e) => {
       const data = JSON.parse(e.target.result);
+
       if (Array.isArray(data)) {
         return (
-          data.map(item => {
-            const title = item.title;
-            const release_year = item.release_year;
-            const stars = item.stars;
-            const format = item.format;
-
-            const formData = {
-              title: title,
-              release_year: release_year,
-              stars: stars,
-              format: format
-            };
-
-            return fetch('/api/items', {
-              method: 'POST',
-              body: JSON.stringify(formData),
-              headers: {
-                'Content-Type': 'application/json'
-              }
-            })
-              .then(res => console.log(res.json()))
-              .catch(err => console.log(err))
-          })
+          data.map(item => this.createStoreItem(item))
         )
       } else {
-        const title = data.title;
-        const release_year = data.release_year;
-        const stars = data.stars;
-        const format = data.format;
-
-        const formData = {
-          title: title,
-          release_year: release_year,
-          stars: stars,
-          format: format
-        };
-
-        return (
-          fetch('/api/items', {
-            method: 'POST',
-            body: JSON.stringify(formData),
-            headers: {
-              'Content-Type': 'application/json'
-            }
-          })
-            .then(res => console.log(res.json()))
-            .catch(err=>console.log(err))
-        )}
+        this.createStoreItem(data);
       }
-    };
+    }
+  };
 
   deleteFilmFromStore = (film) => {
     fetch(`/api/items/${film}`, {

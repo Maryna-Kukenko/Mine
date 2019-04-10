@@ -13,6 +13,9 @@ router.get('/', (req, res) => {
     .then(items => res.json(items))
 });
 
+//@rout GET api/items
+//@desc Get Items according to params
+//@access Public
 router.get('/search/:key', (req, res) => {
   console.log(req.params.key);
   Item.find({$or:[{'title':{$in:req.params.key}},{'stars':{$in:`${req.params.key}`}}]})
