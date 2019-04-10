@@ -7,10 +7,14 @@ class CityDetails extends Component{
     if (this.props.cities.length === 0) {
       return (<p> Empty</p>)
     }
+    const icon = `https://openweathermap.org/img/w/${this.props.cities[0].weather[0].icon}.png`
+    const date = new Date();
+    const time = date.getHours() + ':' + date.getMinutes()
     return (
       <div>
-        Something is here
-        {/*<p> {console.log(this.props.cities.name)}</p>*/}
+        <img src={icon} alt='weather_sign'></img>
+        <div>{this.props.cities[0].main.temp}C</div>
+        <div>{time}</div>
       </div>
     );
   }
