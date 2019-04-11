@@ -11,7 +11,7 @@ class Content extends Component {
           {this.props.value.map((item, index) => {
             return(
               <ContentItem
-                key = {item._id}
+                key = {index}
                 title = {item.title}
                 release_year = {item.release_year}
                 format = {item.format}
@@ -19,7 +19,6 @@ class Content extends Component {
                 id = {item._id}
                 deleteFilm = {this.props.deleteFilm}
               />
-
             )
           })}
         </ul>

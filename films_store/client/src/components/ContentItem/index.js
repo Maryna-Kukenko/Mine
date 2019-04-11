@@ -6,7 +6,7 @@ class ContentItem extends Component{
     detailsStyle: {
       display: 'none',
       width: '200px',
-      height: '100px',
+      minHeight: '80px',
       fontSize: '14px',
       margin: '0 auto'
     }
@@ -33,6 +33,7 @@ class ContentItem extends Component{
       }
     })
   };
+
   render (){
     const style = this.state.detailsStyle;
     return (

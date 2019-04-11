@@ -4,7 +4,6 @@ import './style.scss'
 import UploadFile from '../../components/UploadFile'
 import Filter from '../../components/Filter'
 
-
 class SideBar extends Component {
   render() {
     return (

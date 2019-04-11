@@ -17,7 +17,6 @@ router.get('/', (req, res) => {
 //@desc Get Items according to params
 //@access Public
 router.get('/search/:key', (req, res) => {
-  console.log(req.params.key);
   Item.find({$or:[{'title':{$in:req.params.key}},{'stars':{$in:`${req.params.key}`}}]})
     .then(items => res.json(items))
     .catch(err => res.status(404).json({success: false}))
@@ -45,9 +44,7 @@ router.post('/', (req, res, next) => {
 //@desc Delete An Item
 //@access Public
 router.delete('/:id', (req, res) => {
-  const id = req.params.id;
-
-  Item.findById(id)
+  Item.findById(req.params.id)
     .then(item => item.remove().then(() => res.json({success:true})))
     .catch(err => res.status(404).json({success: false}))
 });

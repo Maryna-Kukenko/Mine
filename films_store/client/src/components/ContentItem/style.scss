@@ -17,8 +17,16 @@
 }
 
 .item-details{
+  color: #414141;
   line-height: 18px;
   text-align: center;
   margin: 5px;
   padding: 0;
+  span{
+    font:{
+      size: 16px;
+      weight: 600;
+    }
+    color: #414141;
+  }
 }

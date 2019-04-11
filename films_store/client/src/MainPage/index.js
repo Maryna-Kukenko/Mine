@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './style.scss'
 
-import SideBar from '../containers/SideBar/inedex'
+import SideBar from '../containers/SideBar'
 import Content from '../containers/Content'
 
 class MainPage extends Component {
@@ -22,25 +22,22 @@ class MainPage extends Component {
   };
 
   changeFilterValue = (e) => {
-    console.log(e.target.value);
     this.setState({
       filterValue: e.target.value
     })
-
   };
 
   showFilteredFilms = (e) => {
     e.preventDefault();
-    const url = `/api/items/search/` + this.state.filterValue;
-    console.log('show filtered films');
-    fetch(url)
+
+    fetch(`/api/items/search/` + this.state.filterValue)
       .then(res => res.json())
       .then(
         res => this.setState({
           filmsList: res
         })
       )
-      .catch(err => console.log('not found film ' + err))
+      .catch(err => console.log('film not found ' + err))
   };
 
   componentWillMount() {

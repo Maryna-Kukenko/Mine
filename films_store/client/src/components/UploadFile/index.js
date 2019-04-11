@@ -3,9 +3,7 @@ import './style.scss'
 
 export default (props) => {
   return (
-   <form
-      className='upload-form'
-      >
+   <form className='upload-form'>
       <input
         type='file'
         accept='.json'
