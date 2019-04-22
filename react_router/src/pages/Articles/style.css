@@ -1,12 +1,12 @@
 .all {
-   width: 700px;
+   width: 1100px;
    margin: 0 auto;
  }
 
 .all_articles {
-  width: 700px;
+  width: 1100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
 }
