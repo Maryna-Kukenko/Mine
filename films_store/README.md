@@ -1,4 +1,4 @@
-# React_Express_MongoDB films_store 
+﻿# React_Express_MongoDB films_store 
 > Create app with React, Express and using MongoDB for saving data. Run your client and server with a single command
 
 ### About the app
@@ -44,7 +44,7 @@ npm run client
 4. Показать список фильмов отсортированных по названию в алфавитном порядке 
 5. Найти фильм по названию. 
 6. Найти фильм по имени актера. 
-7. Импорт фильмов с текстового файла (пример файла прилагается “sample_movies.txt”?). Файл должен загружаться через веб-интерфейс. 
+7. Импорт фильмов с текстового файла (пример файла прилагается “sample_movies.json”?). Файл должен загружаться через веб-интерфейс. 
 
 В первую очередь, важно чтобы была реализована вся функциональность с точки зрения пользователя.  
  
