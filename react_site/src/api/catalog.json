@@ -7,40 +7,55 @@
         "photo": "/images/blanket.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
+            "proportions": "100x150",
+            "price": "1"
           },
           {
-            "proportions": "25x25",
-            "price": "15"
+            "proportions": "140x205",
+            "price": "1.3"
           },
           {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "180x200",
+            "price": "1.5"
+          },
+          {
+            "proportions": "200x220",
+            "price": "2"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/blanket1.jpg",
+            "price": "300"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/blanket2.jpg",
+            "price": "320"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/blanket3.jpg",
+            "price": "350"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/blanket4.jpg",
+            "price": "300"
+          },
+          {
+            "img": "/images/blanket5.jpg",
+            "price": "300"
+          },
+          {
+            "img": "/images/blanket6.jpg",
+            "price": "400"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/blanket1.jpg",
+          "/images/blanket2.jpg",
+          "/images/blanket3.jpg",
+		  "/images/blanket4.jpg",
+		  "/images/blanket5.jpg",
+		  "/images/blanket6.jpg"
         ]
       },
       {
@@ -49,39 +64,50 @@
         "size": [
           {
             "proportions": "50x50",
-            "price": "20"
+            "price": "1"
           },
           {
             "proportions": "50x70",
-            "price": "30"
+            "price": "1.3"
           },
           {
             "proportions": "70x70",
-            "price": "50"
+            "price": "1.5"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
+            "img": "/images/navolochki1.jpg",
             "price": "30"
           },
           {
-            "img": "/images/atlas2.jpg",
+            "img": "/images/navolochki2.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/navolochki3.jpg",
             "price": "40"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/navolochki4.jpg",
+            "price": "40"
           },
-          {
-            "img": "/images/atlas4.jpg",
+		  {
+            "img": "/images/navolochki5.jpg",
             "price": "50"
+          },
+		  {
+            "img": "/images/navolochki6.jpg",
+            "price": "55"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/navolochki1.jpg",
+          "/images/navolochki2.jpg",
+          "/images/navolochki3.jpg",
+		  "/images/navolochki4.jpg",
+          "/images/navolochki5.jpg",
+          "/images/navolochki6.jpg"
         ]
       },
       {
@@ -89,40 +115,51 @@
         "photo": "/images/prostini.jpg",
         "size": [
           {
-            "proportions": "160x220",
-            "price": "10"
+            "proportions": "150x200",
+            "price": "1"
           },
           {
-            "proportions": "190x220",
-            "price": "15"
+            "proportions": "180x200",
+            "price": "1.3"
           },
           {
-            "proportions": "220x220",
-            "price": "30"
+            "proportions": "215x220",
+            "price": "1.5"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
-          },
-          {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
-          },
-          {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
-          },
-          {
-            "img": "/images/atlas4.jpg",
+            "img": "/images/navolochki1.jpg",
             "price": "40"
+          },
+          {
+            "img": "/images/navolochki2.jpg",
+            "price": "40"
+          },
+          {
+            "img": "/images/navolochki3.jpg",
+            "price": "50"
+          },
+          {
+            "img": "/images/navolochki4.jpg",
+            "price": "70"
+          },
+		   {
+            "img": "/images/navolochki5.jpg",
+            "price": "90"
+          },
+          {
+            "img": "/images/navolochki6.jpg",
+            "price": "90"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/navolochki1.jpg",
+          "/images/navolochki2.jpg",
+          "/images/navolochki3.jpg",
+		  "/images/navolochki4.jpg",
+          "/images/navolochki5.jpg",
+          "/images/navolochki6.jpg"
         ]
       },
       {
@@ -130,40 +167,51 @@
         "photo": "/images/podod.jpg",
         "size": [
           {
-            "proportions": "2x15",
-            "price": "10"
+            "proportions": "160x220",
+            "price": "1"
           },
           {
-            "proportions": "2x25",
-            "price": "15"
+            "proportions": "190x220",
+            "price": "1.3"
           },
           {
-            "proportions": "2x40",
-            "price": "30"
+            "proportions": "220x220",
+            "price": "1.5"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/navolochki1.jpg",
+            "price": "80"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/navolochki2.jpg",
+            "price": "80"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/navolochki3.jpg",
+            "price": "100"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/navolochki4.jpg",
+            "price": "140"
+          },
+		   {
+            "img": "/images/navolochki5.jpg",
+            "price": "180"
+          },
+          {
+            "img": "/images/navolochki6.jpg",
+            "price": "180"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/navolochki1.jpg",
+          "/images/navolochki2.jpg",
+          "/images/navolochki3.jpg",
+		  "/images/navolochki4.jpg",
+          "/images/navolochki5.jpg",
+          "/images/navolochki6.jpg"
         ]
       },
       {
@@ -171,40 +219,51 @@
         "photo": "/images/complect.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
+            "proportions": "160x220",
+            "price": "1"
           },
           {
-            "proportions": "25x25",
-            "price": "15"
+            "proportions": "190x220",
+            "price": "1.4"
           },
           {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "220x220",
+            "price": "1.8"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/navolochki1.jpg",
+            "price": "240"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/navolochki2.jpg",
+            "price": "240"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/navolochki3.jpg",
+            "price": "300"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/navolochki4.jpg",
+            "price": "420"
+          },
+		   {
+            "img": "/images/navolochki5.jpg",
+            "price": "540"
+          },
+          {
+            "img": "/images/navolochki6.jpg",
+            "price": "540"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/navolochki1.jpg",
+          "/images/navolochki2.jpg",
+          "/images/navolochki3.jpg",
+		  "/images/navolochki4.jpg",
+          "/images/navolochki5.jpg",
+          "/images/navolochki6.jpg"
         ]
       }
     ]
@@ -217,40 +276,38 @@
         "photo": "/images/kitchen-towel.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
-          },
-          {
-            "proportions": "25x25",
-            "price": "15"
-          },
-          {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "25x45",
+            "price": "1"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
-          },
-          {
-            "img": "/images/atlas2.jpg",
+            "img": "/images/kitchen-towel1.jpg",
             "price": "20"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/kitchen-towel2.jpg",
+            "price": "20"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/kitchen-towel3.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/kitchen-towel4.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/kitchen-towel5.jpg",
+            "price": "20"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-towel1.jpg",
+          "/images/kitchen-towel2.jpg",
+          "/images/kitchen-towel3.jpg",
+          "/images/kitchen-towel4.jpg",
+          "/images/kitchen-towel5.jpg"
         ]
       },
       {
@@ -258,40 +315,50 @@
         "photo": "/images/kitchen-napk.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
-          },
-          {
             "proportions": "25x25",
-            "price": "15"
+            "price": "1"
           },
           {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "30x30",
+            "price": "1.3"
+          },
+          {
+            "proportions": "35x35",
+            "price": "1.5"
+          },
+          {
+            "proportions": "45x45",
+            "price": "1.8"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
-          },
-          {
-            "img": "/images/atlas2.jpg",
+            "img": "/images/kitchen-towel1.jpg",
             "price": "20"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/kitchen-towel2.jpg",
+            "price": "20"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/kitchen-towel3.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/kitchen-towel4.jpg",
+            "price": "20"
+          },
+          {
+            "img": "/images/kitchen-towel5.jpg",
+            "price": "20"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-towel1.jpg",
+          "/images/kitchen-towel2.jpg",
+          "/images/kitchen-towel3.jpg",
+          "/images/kitchen-towel4.jpg",
+          "/images/kitchen-towel5.jpg"
         ]
       },
       {
@@ -299,40 +366,38 @@
         "photo": "/images/kitchen-towel2.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
-          },
-          {
-            "proportions": "25x25",
-            "price": "15"
-          },
-          {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "40x60",
+            "price": "1"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/kitchen-towel1.jpg",
+            "price": "40"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/kitchen-towel2.jpg",
+            "price": "40"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/kitchen-towel3.jpg",
+            "price": "40"
           },
           {
-            "img": "/images/atlas4.jpg",
+            "img": "/images/kitchen-towel4.jpg",
+            "price": "40"
+          },
+          {
+            "img": "/images/kitchen-towel5.jpg",
             "price": "40"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-towel1.jpg",
+          "/images/kitchen-towel2.jpg",
+          "/images/kitchen-towel3.jpg",     
+          "/images/kitchen-towel4.jpg",
+          "/images/kitchen-towel5.jpg"
         ]
       },
       {
@@ -340,40 +405,46 @@
         "photo": "/images/kitchen-tablecloth.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
+            "proportions": "85x85",
+            "price": "1"
           },
           {
-            "proportions": "25x25",
-            "price": "15"
+            "proportions": "140x200",
+            "price": "1.8"
           },
           {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "145x180",
+            "price": "1.8"
+          },
+          {
+            "proportions": "160x200",
+            "price": "2"
           }
+
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/kitchen-tablecloth1.jpg",
+            "price": "150"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/kitchen-tablecloth2.jpg",
+            "price": "150"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/kitchen-tablecloth3.jpg",
+            "price": "200"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/kitchen-tablecloth4.jpg",
+            "price": "230"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-tablecloth1.jpg",
+          "/images/kitchen-tablecloth2.jpg",
+          "/images/kitchen-tablecloth3.jpg",
+          "/images/kitchen-tablecloth4.jpg"
         ]
       },
       {
@@ -381,40 +452,46 @@
         "photo": "/images/apron.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
+            "proportions": "S",
+            "price": "1"
           },
           {
-            "proportions": "25x25",
-            "price": "15"
+            "proportions": "M",
+            "price": "1"
           },
           {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "L",
+            "price": "1.3"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/apron1.jpg",
+            "price": "150"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/apron2.jpg",
+            "price": "180"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/apron3.jpg",
+            "price": "180"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/apron4.jpg",
+            "price": "230"
+          },
+          {
+            "img": "/images/apron5.jpg",
+            "price": "260"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/apron1.jpg",
+          "/images/apron2.jpg",
+          "/images/apron3.jpg",
+          "/images/apron4.jpg",
+          "/images/apron5.jpg"
         ]
       },
       {
@@ -422,40 +499,33 @@
         "photo": "/images/podushki-na-stul.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
-          },
-          {
-            "proportions": "25x25",
-            "price": "15"
-          },
-          {
             "proportions": "40x40",
-            "price": "30"
+            "price": "1"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/podushki-na-stul1.jpg",
+            "price": "100"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/podushki-na-stul2.jpg",
+            "price": "100"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/podushki-na-stul3.jpg",
+            "price": "1000"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/podushki-na-stul4.jpg",
+            "price": "100"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/podushki-na-stul1.jpg",
+          "/images/podushki-na-stul2.jpg",
+          "/images/podushki-na-stul3.jpg",
+          "/images/podushki-na-stul4.jpg"
         ]
       },
       {
@@ -463,40 +533,38 @@
         "photo": "/images/98.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
-          },
-          {
-            "proportions": "25x25",
-            "price": "15"
-          },
-          {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "один размер",
+            "price": "1"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/kitchen-towel1.jpg",
+            "price": "150"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/kitchen-towel2.jpg",
+            "price": "150"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/kitchen-towel3.jpg",
+            "price": "150"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/kitchen-towel4.jpg",
+            "price": "160"
+          },
+          {
+            "img": "/images/kitchen-towel5.jpg",
+            "price": "160"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-towel1.jpg",
+          "/images/kitchen-towel2.jpg",
+          "/images/kitchen-towel3.jpg",
+          "/images/kitchen-towel4.jpg",
+          "/images/kitchen-towel4.jpg"
         ]
       }
     ]
@@ -509,40 +577,57 @@
         "photo": "/images/baby-diaper.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
+            "proportions": "80x90",
+            "price": "1"
           },
           {
-            "proportions": "25x25",
-            "price": "15"
-          },
-          {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "80x100",
+            "price": "1.3"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/baby-diaper1.jpg",
+            "price": "60"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/baby-diaper2.jpg",
+            "price": "60"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/baby-diaper3.jpg",
+            "price": "60"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/baby-diaper4.jpg",
+            "price": "65"
+          },
+          {
+            "img": "/images/baby-diaper5.jpg",
+            "price": "70"
+          },
+          {
+            "img": "/images/baby-diaper6.jpg",
+            "price": "70"
+          },
+          {
+            "img": "/images/baby-diaper7.jpg",
+            "price": "80"
+          },
+          {
+            "img": "/images/baby-diaper8.jpg",
+            "price": "80"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/baby-diaper1.jpg",
+          "/images/baby-diaper2.jpg",
+          "/images/baby-diaper3.jpg",
+          "/images/baby-diaper4.jpg",
+          "/images/baby-diaper5.jpg",
+          "/images/baby-diaper6.jpg",
+          "/images/baby-diaper7.jpg",
+          "/images/baby-diaper8.jpg"
         ]
       },
       {
@@ -550,40 +635,41 @@
         "photo": "/images/children-towel.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
+            "proportions": "100x100",
+            "price": "1"
           },
           {
-            "proportions": "25x25",
-            "price": "15"
+            "proportions": "120x120",
+            "price": "1.2"
           },
           {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "100x160",
+            "price": "1.4"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/children-towel1.jpg",
+            "price": "400"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/children-towel2.jpg",
+            "price": "400"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/children-towel3.jpg",
+            "price": "350"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/children-towel4.jpg",
+            "price": "350"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/children-towel1.jpg",
+          "/images/children-towel2.jpg",
+          "/images/children-towel3.jpg",
+          "/images/children-towel4.jpg"
         ]
       },
       {
@@ -591,40 +677,41 @@
         "photo": "/images/children-blancket.jpg",
         "size": [
           {
-            "proportions": "15x15",
-            "price": "10"
+            "proportions": "90x90",
+            "price": "1"
           },
           {
-            "proportions": "25x25",
-            "price": "15"
+            "proportions": "110x130",
+            "price": "1.3"
           },
           {
-            "proportions": "40x40",
-            "price": "30"
+            "proportions": "140x140",
+            "price": "1.5"
           }
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
+            "img": "/images/children-blancket1.jpg",
+            "price": "280"
           },
           {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
+            "img": "/images/children-blancket2.jpg",
+            "price": "300"
           },
           {
-            "img": "/images/atlas3.jpg",
-            "price": "30"
+            "img": "/images/children-blancket3.jpg",
+            "price": "320"
           },
           {
-            "img": "/images/atlas4.jpg",
-            "price": "40"
+            "img": "/images/children-blancket4.jpg",
+            "price": "280"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/children-blancket1.jpg",
+          "/images/children-blancket2.jpg",
+          "/images/children-blancket3.jpg",
+          "/images/children-blancket4.jpg"
         ]
       },
       {
@@ -646,26 +733,37 @@
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
-            "price": "10"
-          },
-          {
-            "img": "/images/atlas2.jpg",
-            "price": "20"
-          },
-          {
-            "img": "/images/atlas3.jpg",
+            "img": "/images/baby-diaper1.jpg",
             "price": "30"
           },
           {
-            "img": "/images/atlas4.jpg",
+            "img": "/images/baby-diaper2.jpg",
+            "price": "30"
+          },
+          {
+            "img": "/images/baby-diaper3.jpg",
             "price": "40"
+          },
+          {
+            "img": "/images/baby-diaper4.jpg",
+            "price": "40"
+          },
+          {
+            "img": "/images/baby-diaper5.jpg",
+            "price": "50"
+          },
+          {
+            "img": "/images/baby-diaper6.jpg",
+            "price": "55"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/baby-diaper1.jpg",
+          "/images/baby-diaper2.jpg",
+          "/images/baby-diaper3.jpg",
+          "/images/baby-diaper4.jpg",
+          "/images/baby-diaper5.jpg",
+          "/images/baby-diaper6.jpg"
         ]
       }
     ]
@@ -692,26 +790,26 @@
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
+            "img": "/images/kitchen-towel1.jpg",
             "price": "10"
           },
           {
-            "img": "/images/atlas2.jpg",
+            "img": "/images/kitchen-towel2.jpg",
             "price": "20"
           },
           {
-            "img": "/images/atlas3.jpg",
+            "img": "/images/kitchen-towel3.jpg",
             "price": "30"
           },
           {
-            "img": "/images/atlas4.jpg",
+            "img": "/images/kitchen-towel4.jpg",
             "price": "40"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-towel1.jpg",
+          "/images/kitchen-towel2.jpg",
+          "/images/kitchen-towel3.jpg"
         ]
       },
       {
@@ -733,26 +831,26 @@
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
+            "img": "/images/kitchen-towel1.jpg",
             "price": "10"
           },
           {
-            "img": "/images/atlas2.jpg",
+            "img": "/images/kitchen-towel2.jpg",
             "price": "20"
           },
           {
-            "img": "/images/atlas3.jpg",
+            "img": "/images/kitchen-towel3.jpg",
             "price": "30"
           },
           {
-            "img": "/images/atlas4.jpg",
+            "img": "/images/kitchen-towel4.jpg",
             "price": "40"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-towel1.jpg",
+          "/images/kitchen-towel2.jpg",
+          "/images/kitchen-towel3.jpg"
         ]
       },
       {
@@ -774,26 +872,26 @@
         ],
         "cloth": [
           {
-            "img": "/images/atlas1.jpg",
+            "img": "/images/kitchen-towel1.jpg",
             "price": "10"
           },
           {
-            "img": "/images/atlas2.jpg",
+            "img": "/images/kitchen-towel2.jpg",
             "price": "20"
           },
           {
-            "img": "/images/atlas3.jpg",
+            "img": "/images/kitchen-towel3.jpg",
             "price": "30"
           },
           {
-            "img": "/images/atlas4.jpg",
+            "img": "/images/kitchen-towel4.jpg",
             "price": "40"
           }
         ],
         "photos": [
-          "/images/atlas1.jpg",
-          "/images/atlas2.jpg",
-          "/images/atlas3.jpg"
+          "/images/kitchen-towel1.jpg",
+          "/images/kitchen-towel2.jpg",
+          "/images/kitchen-towel3.jpg"
         ]
       }
     ]
