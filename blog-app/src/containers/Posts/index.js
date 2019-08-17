@@ -1,34 +1,34 @@
-import React, {Component} from 'react'
-import './style.scss'
-import {connect} from 'react-redux'
+import React, {Component} from 'react';
+import './style.scss';
+import {connect} from 'react-redux';
 
-import PostsTittle from "../../components/AllPosts/Title";
-import fetchPosts from "../../api/fetchPosts";
-import {addElement} from '../../store/actions/posts'
-import {addComment} from '../../store/actions/comments'
-import PostItem from "../../components/AllPosts/PostsItem";
+import PostsTittle from '../../components/AllPosts/Title';
+import fetchPosts from '../../api/fetchPosts';
+import {addElement} from '../../store/actions/posts';
+import {addComment} from '../../store/actions/comments';
+import PostItem from '../../components/AllPosts/PostsItem';
 
 class Posts extends Component{
-  state = {
+  state={
     postsList: [],
     commentsList:[]
-  }
+  };
 
-  componentDidMount() {
+  componentDidMount = () => {
     fetchPosts().then(res => {
       res.forEach(item => {
-        this.props.addElementToStore(item)
+        this.props.addElementToStore(item);
         if(item.comments) {
           item.comments.map(item => {
             this.props.addCommentsToStore(item)
           })
         }
-      })
+      });
       this.setState({
         postsList: res
       })
     })
-  }
+  };
 
   render() {
     return (
@@ -55,11 +55,11 @@ class Posts extends Component{
 
 const mapStateToProps = (state) => ({
   postsList: state.list
-})
+});
 const mapActionToProps = (dispatch) => ({
   addElementToStore: (value) => {dispatch(addElement(value))},
   addCommentsToStore: (value) => {dispatch(addComment(value))}
-})
+});
 
 export default connect(
   mapStateToProps,

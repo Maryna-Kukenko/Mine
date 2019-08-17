@@ -1,10 +1,10 @@
-import React from 'react'
-import './style.scss'
+import React from 'react';
+import './style.scss';
 
-const CommentEmpty = (props) =>  {
+const CommentEmpty = props => {
   return (
     <div>
-      <p className='comment-title' >Comments</p>
+      <p className='comment-title'>Comments</p>
       <input
         value={props.value}
         onChange={props.changedInputValue}
@@ -15,12 +15,12 @@ const CommentEmpty = (props) =>  {
       />
       <button
         className='comment-add'
-        onClick={(e) => props.onClick(e.target.value)}
+        onClick={e => props.onClick(e.target.value)}
       >
         Add new
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default CommentEmpty
+export default CommentEmpty;

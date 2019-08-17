@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const CommentFull = (props) => {
-  return (
-    <p style={{background: 'aliceblue'}}>{props.text}</p>
-  )
-}
+const CommentFull = props => {
+  return <p style={{ background: 'aliceblue' }}>{props.text}</p>;
+};
 
-export default CommentFull
+export default CommentFull;
