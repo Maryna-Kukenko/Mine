@@ -1,0 +1,11 @@
+.posts-tittle{
+  width: 100%;
+  font: {
+    family: Playbill, sans-serif;
+    size: 45px;
+  };
+  text-align: center;
+  &:first-letter{
+    text-transform: capitalize;
+  }
+}

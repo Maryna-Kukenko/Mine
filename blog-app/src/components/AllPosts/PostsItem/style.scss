@@ -1,0 +1,31 @@
+.post-item {
+  border: 1px solid darkgrey;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  .item-title {
+    height: 50px;
+    line-height: 50px;
+    font: {
+      family: Playbill, sans-serif;
+      size: 25px;
+    }
+    margin: 0;
+  }
+  .item-text {
+    height: 55%;
+    text-align: justify;
+    overflow: hidden;
+    margin: 0;
+  }
+}
+
+.item-details {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
