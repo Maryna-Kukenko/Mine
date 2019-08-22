@@ -51,6 +51,7 @@ class ViewPost extends Component {
           changedInputValue={this.changeInputValue}
           onClick={this.addComment}
         />
+        <CommentFull text={this.state.newComment} />
         {this.props.comments.map((item, key) => (
           <div key={key}>
             {ident === item.postId ? <CommentFull text={item.body} /> : null}
