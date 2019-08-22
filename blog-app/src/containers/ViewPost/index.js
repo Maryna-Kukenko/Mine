@@ -9,7 +9,7 @@ import { addComment } from '../../store/actions/comments'
 class ViewPost extends Component {
   state = {
     inputValue: '',
-    newComment: []
+    newComment: ''
   }
 
   changeInputValue = e => {
@@ -25,8 +25,8 @@ class ViewPost extends Component {
     })
 
     this.setState(prevState => ({
-      inputValue: '',
-      newComment: prevState.inputValue
+      newComment: prevState.inputValue,
+      inputValue: ''
     }))
   }
 
@@ -51,7 +51,6 @@ class ViewPost extends Component {
           changedInputValue={this.changeInputValue}
           onClick={this.addComment}
         />
-        <CommentFull text={this.state.newComment} />
         {this.props.comments.map((item, key) => (
           <div key={key}>
             {ident === item.postId ? <CommentFull text={item.body} /> : null}
