@@ -12,7 +12,6 @@ const links = [
 ]
 
 class Navigation extends Component{
-
   renderLinks() {
     return links.map((link, index) => {
       return (
